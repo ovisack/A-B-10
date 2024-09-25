@@ -54,3 +54,10 @@ function activeButton(id) {
   
     historyContainer.insertBefore(historyItem, historyContainer.children[1]);
   }
+
+
+
+  document.getElementById('blog-but').addEventListener('click',function(event){
+    event.preventDefault();
+    window.location.href = 'home.html'
+});
